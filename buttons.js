@@ -23,3 +23,12 @@ function toggleDark() {
     console.log("toggleDark called");
     document.body.classList.toggle("dark-mode");
 }
+
+// make a new function wackyEffects
+// log "wackyEffects called"
+
+function wackyEffects() {
+    console.log ("wackyEffects called");
+    document.getElementById("instructions").classList.toggle("flipped");
+    document.getElementById("pageTitle").innerHTML = "Something wacky happened!";
+}

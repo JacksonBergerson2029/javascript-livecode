@@ -35,4 +35,13 @@ body.dark-mode header, body.dark-mode footer {
 
 body.dark-mode main {
   background-color: darkblue;
+  color: white
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+#instructions {
+  transition: transform 1s;
 }
